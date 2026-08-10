@@ -8,8 +8,6 @@ This repository packages the complete core skill collection supplied with the Ki
 
 The collection contains 261 skill directories and more than 2,600 supporting files. It is designed to make specialized agent workflows easier to discover, install, reuse, and maintain in a standard repository structure.
 
-The catalog-oriented presentation is informed by [thvroyal/kimi-skills](https://github.com/thvroyal/kimi-skills). The contents of this repository are the complete core collection, not a fork or copy of that reference repository.
-
 ## Skill areas
 
 | Area | Representative capabilities |
@@ -72,4 +70,3 @@ The files in individual skill directories may have different authorship and lice
 ## Credits
 
 - Core skill collection: supplied Kimi Agent skill library
-- Repository organization: informed by [thvroyal/kimi-skills](https://github.com/thvroyal/kimi-skills)
