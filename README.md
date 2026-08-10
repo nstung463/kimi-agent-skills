@@ -45,15 +45,15 @@ To use a single skill, copy its directory from `skills/` into the skills directo
 
 ```text
 kimi-agent-skills/
-├── skills/
-│   ├── docx/
-│   ├── pdf/
-│   ├── pptx/
-│   ├── xlsx/
-│   ├── kimi-find-skills/
-│   └── ... 261 skill directories
-├── .gitignore
-└── README.md
+|-- skills/
+|   |-- docx/
+|   |-- pdf/
+|   |-- pptx/
+|   |-- xlsx/
+|   |-- kimi-find-skills/
+|   `-- ... 261 skill directories
+|-- .gitignore
+`-- README.md
 ```
 
 ## Usage guidance
