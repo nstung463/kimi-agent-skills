@@ -1,45 +1,47 @@
 # Kimi Agent Core Skills
 
-> Bộ core skills đầy đủ được tổng hợp từ Kimi Agent — gồm 261 skill và hơn 2.600 file workflow, reference, asset và script.
+> A curated collection of 261 reusable skills for writing, research, finance, software development, documents, media, and planning workflows.
 
-[English](#english) · [Tiếng Việt](#tiếng-việt)
+## Overview
 
-## English
+This repository packages the complete core skill collection supplied with the Kimi Agent setup. Each skill is self-contained and includes a `SKILL.md` instruction file, with supporting scripts, references, assets, templates, or configuration where required.
 
-This repository packages the core skill library used by the Kimi Agent setup. It is organized as a reusable `skills/` collection for AI agents: each skill is a self-contained directory with a `SKILL.md` instruction file and, where needed, supporting scripts, references, assets, and templates.
+The collection contains 261 skill directories and more than 2,600 supporting files. It is designed to make specialized agent workflows easier to discover, install, reuse, and maintain in a standard repository structure.
 
-The repository structure and README presentation are inspired by [thvroyal/kimi-skills](https://github.com/thvroyal/kimi-skills). The skill content in this repository comes from the local core collection at `C:\Users\Admin\Downloads\skills-kimi\skills`; it is not a fork of that reference repository.
+The catalog-oriented presentation is informed by [thvroyal/kimi-skills](https://github.com/thvroyal/kimi-skills). The contents of this repository are the complete core collection, not a fork or copy of that reference repository.
 
-### What is included?
+## Skill areas
 
-| Area | Examples |
-|---|---|
-| Writing & content | Copywriting, SEO, email, newsletters, reports, speeches, translation, social posts |
-| Research & finance | Deep research, equity and stock research, valuation, earnings, commodities, funds, risk |
-| Product & planning | PRDs, campaigns, OKRs, pricing, roadmaps, sprints, Gantt plans, SaaS analysis |
-| Engineering & data | Backend, API, databases, SQL, testing, Git, Kubernetes, Terraform, security, charts |
-| Documents & media | DOCX, PDF, XLSX, PPTX, slides, design systems, infographics, video and podcast workflows |
-| Personal & learning | ADHD support, flashcards, quizzes, tutoring, interviews, resumes, meeting and work recaps |
+| Area | Representative capabilities |
+| --- | --- |
+| Writing and content | Copywriting, SEO, email, newsletters, reports, speeches, translation, and social content |
+| Research and finance | Deep research, academic review, equity research, valuation, earnings, commodities, funds, and risk analysis |
+| Product and planning | PRDs, campaigns, OKRs, pricing, roadmaps, sprints, Gantt planning, and SaaS analysis |
+| Engineering and data | Backend, APIs, databases, SQL, testing, Git, Kubernetes, Terraform, security, and data visualization |
+| Documents and media | DOCX, PDF, XLSX, PPTX, slide design, design systems, infographics, video, and podcast workflows |
+| Personal productivity and learning | Flashcards, quizzes, tutoring, interview practice, resumes, meeting recaps, and work planning |
 
-Important entry-point skills include:
+## Notable entry points
 
-- `docx`, `pdf`, `xlsx`, `pptx` for office documents and presentations
-- `kimi-find-skills`, `kimi-skills-finder`, `kimi-help-center` for skill discovery and help
-- `webapp-building`, `backend-building`, `api-doc-gen`, `database-inspector` for software work
-- `deep-research`, `research-writer`, `academic-paper-reviewer` for research workflows
-- `seo-audit`, `campaign-planner`, `brand-naming-lab` for marketing and content work
+- `docx`, `pdf`, `xlsx`, and `pptx` for document and presentation workflows
+- `kimi-find-skills`, `kimi-skills-finder`, and `kimi-help-center` for skill discovery
+- `webapp-building`, `backend-building`, `api-doc-gen`, and `database-inspector` for software projects
+- `deep-research`, `research-writer`, and `academic-paper-reviewer` for research workflows
+- `seo-audit`, `campaign-planner`, and `brand-naming-lab` for marketing workflows
 
-### Install
+The complete inventory is available under [`skills/`](skills/). Each skill's `SKILL.md` is the authoritative guide for its triggers, workflow, dependencies, and usage requirements.
 
-Install the full collection:
+## Installation
+
+Install the complete collection with:
 
 ```bash
 npx skills add nstung463/kimi-agent-skills
 ```
 
-Or install/copy only the skill you need from the `skills/` directory. Every skill's `SKILL.md` documents its trigger conditions, workflow, and relevant dependencies.
+To use a single skill, copy its directory from `skills/` into the skills directory of your agent environment. Keep the skill's supporting files together with `SKILL.md`.
 
-### Repository layout
+## Repository structure
 
 ```text
 kimi-agent-skills/
@@ -54,46 +56,20 @@ kimi-agent-skills/
 └── README.md
 ```
 
-### How to use a skill
+## Usage guidance
 
-1. Identify the relevant directory under `skills/`.
-2. Read its `SKILL.md` before invoking the workflow.
-3. Follow the skill's dependency and tool instructions.
-4. Keep supporting files next to the skill when copying it to another agent environment.
+1. Select the skill that matches the task.
+2. Read its `SKILL.md` before starting the workflow.
+3. Install or verify the dependencies documented by that skill.
+4. Keep scripts, references, assets, and templates in their original relative locations.
 
-## Tiếng Việt
+## Attribution and scope
 
-Đây là repo chứa bộ **core skills đầy đủ của Kimi Agent**. Bộ dữ liệu được lấy từ thư mục:
+This repository is a community-oriented packaging of the supplied Kimi Agent core skill collection. It is not an official Kimi or Moonshot AI product and does not represent the original authors or organizations.
 
-```text
-C:\Users\Admin\Downloads\skills-kimi\skills
-```
-
-Repo có 261 thư mục skill và hơn 2.600 file đi kèm, bao gồm hướng dẫn `SKILL.md`, script, reference, asset và template. Nội dung bao phủ nhiều nhóm: viết nội dung, nghiên cứu, tài chính, lập trình, bảo mật, dữ liệu, email, marketing, tài liệu văn phòng, slide, video, học tập và quản lý công việc.
-
-### Cách tổ chức
-
-Cách trình bày và cấu trúc README được học hỏi từ [thvroyal/kimi-skills](https://github.com/thvroyal/kimi-skills). Tuy nhiên, repo này **không sao chép bộ 3 skill của repo tham khảo**; toàn bộ thư mục `skills/` được viết lại theo core skills thực tế của bạn.
-
-Mỗi skill là một thư mục độc lập. File `SKILL.md` là điểm bắt đầu để biết skill dùng khi nào, quy trình thực hiện ra sao và cần dependency nào.
-
-### Cài đặt
-
-```bash
-npx skills add nstung463/kimi-agent-skills
-```
-
-Hoặc chỉ lấy từng thư mục cần dùng trong `skills/`, ví dụ `docx`, `pdf`, `xlsx`, `pptx`, `deep-research`, `webapp-building` hoặc `seo-audit`.
-
-### Attribution và phạm vi
-
-Đây là bản tổng hợp/đóng gói cộng đồng từ core skill collection của Kimi Agent. Repo này không phải sản phẩm chính thức của Kimi hoặc Moonshot AI và không đại diện cho các tác giả/đơn vị gốc. Khi sử dụng, chỉnh sửa hoặc tái phân phối, hãy giữ attribution, đọc license trong từng skill và tuân thủ quyền của tác giả tương ứng.
+The files in individual skill directories may have different authorship and licensing terms. Preserve the attribution and license information included with each skill, and review the relevant `LICENSE`, `LICENSE.txt`, or documentation before modifying, redistributing, or using a skill commercially.
 
 ## Credits
 
-- Core skill source: Kimi Agent skill collection supplied by the repository owner
-- Repository organization: inspired by [thvroyal/kimi-skills](https://github.com/thvroyal/kimi-skills)
-
-## License
-
-License và attribution có thể khác nhau giữa các skill. Hãy xem file `LICENSE`, `LICENSE.txt` hoặc phần ghi chú trong từng thư mục skill trước khi tái phân phối hoặc dùng cho mục đích thương mại.
+- Core skill collection: supplied Kimi Agent skill library
+- Repository organization: informed by [thvroyal/kimi-skills](https://github.com/thvroyal/kimi-skills)
