@@ -29,6 +29,8 @@ The collection contains 261 skill directories and more than 2,600 supporting fil
 
 The complete inventory is available under [`skills/`](skills/). Each skill's `SKILL.md` is the authoritative guide for its triggers, workflow, dependencies, and usage requirements.
 
+Browse the [skill catalog](docs/), [changelog](CHANGELOG.md), [contribution guide](CONTRIBUTING.md), and [security policy](SECURITY.md) for additional project documentation.
+
 ## Installation
 
 Install the complete collection with:
@@ -51,6 +53,10 @@ kimi-agent-skills/
 |   |-- kimi-find-skills/
 |   `-- ... 261 skill directories
 |-- .gitignore
+|-- docs/
+|-- CHANGELOG.md
+|-- CONTRIBUTING.md
+|-- SECURITY.md
 `-- README.md
 ```
 

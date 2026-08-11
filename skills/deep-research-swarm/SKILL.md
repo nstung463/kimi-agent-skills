@@ -1,6 +1,6 @@
 ---
-- name: deep-research
-  description: >
+name: deep-research-swarm
+description: >
     Multi-agent deep research orchestration with adaptive routing. Use this skill
     whenever comprehensive, multi-dimensional, evidence-backed investigation is
     required — competitive intelligence, market analysis, controversy investigation,

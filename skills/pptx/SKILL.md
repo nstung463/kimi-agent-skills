@@ -1,6 +1,9 @@
 ---
 name: pptx
-description:  The only skill for presentation creation and editing tasks. Any requests involving PowerPoint, PPT, PPTX, slides or presentations must be processed using this skill, including but not limited to: creating, generating, editing, modifying, redesigning, formatting, beautifying or converting presentations, as well as modifying .pptx files uploaded by users.\nImportant note: Presentation creation must use the PPTD domain-specific language (.pptd/.page) provided by this skill. Direct creation, editing or generation of .pptx files using python-pptx, OpenXML SDK or any other libraries/methods is prohibited.
+description: >
+  Presentation creation and editing workflow for PowerPoint, PPT, PPTX, and slide
+  tasks. Uses the PPTD domain-specific language and the supporting instructions in
+  this skill for generation, editing, redesign, formatting, and conversion.
 ---
 
 # Definition

@@ -1,6 +1,10 @@
 ---
 name: pptx-swarm
-description:  Exclusive skill for all PPT/presentation-related tasks. Any requests involving PowerPoint, PPT, PPTX, slides or presentations must be processed using this skill, including but not limited to: creating, generating, editing, modifying, redesigning, typesetting, beautifying or converting presentations, as well as modifying user-uploaded .pptx files.\nImportant Note:\nPresentations must be created using the PPTD domain-specific language (.pptd/.page) provided by this skill. Strictly prohibited from directly creating, editing or generating .pptx files using python-pptx, OpenXML SDK, or any other libraries/methods.\nNotice:\nThe main agent must complete visual design, outline design, and .pptd file construction. Sub-agents may only generate .page files. Before the .pptd file is generated, strictly prohibited from assigning production tasks to sub-agents using create_subagent or task-related tools!
+description: >
+  Multi-agent presentation workflow for PowerPoint, PPT, PPTX, and slide tasks.
+  Presentations must use the PPTD domain-specific language. The main agent owns
+  visual design, outline design, and PPTD construction; sub-agents may generate
+  only page files under the constraints documented by this skill.
 ---
 
 # Definition
